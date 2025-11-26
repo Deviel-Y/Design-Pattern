@@ -1,9 +1,9 @@
-import FormWithUndo from "./design_patterns/memento/example_one/FormWithUndo";
+import DrawingBoard from "./design_patterns/memento/example_two/DrawingBoard";
 
 const Home = () => {
   return (
     <div>
-      <FormWithUndo />
+      <DrawingBoard />
     </div>
   );
 };
