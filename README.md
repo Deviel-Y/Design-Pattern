@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GoF Design Patterns in React & TypeScript
 
-## Getting Started
+This repository contains practical, modern implementations of the **Gang of Four (GoF)** design patterns using **React, TypeScript, and functional programming principles**.
 
-First, run the development server:
+Most examples found online use classical OOP with classes. This project rewrites those patterns using **React hooks, functional composition, and TypeScript generics** — making them more relevant for real-world frontend development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The goal of this repository is to:
+
+- Translate GoF patterns into **idiomatic React/TypeScript** forms.
+- Focus on **practical and minimal examples**, not academic boilerplate.
+- Provide **two examples per pattern**, often a UI example + a core logic example.
+- Show how traditional patterns map to **modern frontend architecture**.
+
+---
+
+# 📦 Tech Stack
+
+- **React (TypeScript)**
+- **React Hooks** instead of OOP classes
+- Functional patterns where applicable
+- Vite/Next.js examples depending on context
+- Modern ES modules
+
+---
+
+# 📚 Patterns Covered (GoF)
+
+Each pattern includes:
+
+- A short explanation
+- A logical/algorithmic implementation
+- A React-specific implementation (hooks/components)
+- When to use it in frontend development
+
+### Creational Patterns
+
+- Factory Method
+- Abstract Factory
+- Builder
+- Prototype
+- Singleton
+
+### Structural Patterns
+
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+
+### Behavioral Patterns
+
+- Chain of Responsibility
+- Command
+- Interpreter
+- Iterator
+- Mediator
+- Memento (with React history & canvas undo/redo)
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
+
+---
+
+# 🧠 Philosophy
+
+GoF patterns were written for the OOP era. This repo reinterprets them for modern frontend development:
+
+- Prefer **functions over classes**.
+- Prefer **hooks over manual observer systems**.
+- Prefer **composition over inheritance**.
+- Prefer immutability where possible.
+
+The goal is not to "force" patterns into React — but to show their natural equivalents.
+
+---
+
+# 📁 Project Structure
+
+```
+app/
+  design_patterns/
+    [pattern-name]/
+      example_one/
+        core1.ts
+        Component1.tsx
+      example_two/
+        core2.ts
+        Component2.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Each pattern contains two complete TSX examples that can be imported directly into your `app.tsx` or any other component.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Example:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```ts
+import ExampleOne from "./design_patterns/memento/example_one/ExampleOne";
 
-## Learn More
+export default function App() {
+  return <ExampleOne />;
+}
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 🧪 Running Examples
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 🤝 Contributions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+PRs are welcome — especially:
+
+- More UI examples
+- Alternative implementations
+- Edge-case explanations
+
+---
+
+# 📄 License
+
+MIT
