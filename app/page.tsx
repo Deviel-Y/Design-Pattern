@@ -1,11 +1,11 @@
-import DrawingBoard from "./design_patterns/memento/example_two/DrawingBoard";
+import TrafficLight from "./design_patterns/state/example_one/TrafficLight";
 
 const Home = () => {
-  return (
-    <div>
-      <DrawingBoard />
-    </div>
-  );
+ return (
+  <div>
+   <TrafficLight />
+  </div>
+ );
 };
 
 export default Home;
