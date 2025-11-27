@@ -1,9 +1,9 @@
-import TrafficLight from "./design_patterns/state/example_one/TrafficLight";
+import AuthMechine from "./design_patterns/state/example_two/AuthMechine";
 
 const Home = () => {
  return (
   <div>
-   <TrafficLight />
+   <AuthMechine />
   </div>
  );
 };
