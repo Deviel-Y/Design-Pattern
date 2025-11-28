@@ -57,7 +57,7 @@ Each pattern includes:
 - Interpreter
 - Iterator
 - Mediator
-- Memento (with React history & canvas undo/redo)
+- Memento
 - Observer
 - State
 - Strategy
