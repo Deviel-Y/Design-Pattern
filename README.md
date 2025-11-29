@@ -13,7 +13,7 @@ The goal of this repository is to:
 
 ---
 
-# 📦 Tech Stack
+# Tech Stack
 
 - **React (TypeScript)**
 - **React Hooks** instead of OOP classes
@@ -23,7 +23,7 @@ The goal of this repository is to:
 
 ---
 
-# 📚 Patterns Covered (GoF)
+# Patterns Covered (GoF)
 
 Each pattern includes:
 
@@ -66,7 +66,7 @@ Each pattern includes:
 
 ---
 
-# 🧠 Philosophy
+# Philosophy
 
 GoF patterns were written for the OOP era. This repo reinterprets them for modern frontend development:
 
@@ -79,7 +79,7 @@ The goal is not to "force" patterns into React — but to show their natural equ
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 app/
@@ -107,7 +107,7 @@ export default function App() {
 
 ---
 
-# 🧪 Running Examples
+# Running Examples
 
 ```
 npm install
@@ -116,7 +116,7 @@ npm run dev
 
 ---
 
-# 🤝 Contributions
+# Contributions
 
 PRs are welcome — especially:
 
@@ -126,6 +126,6 @@ PRs are welcome — especially:
 
 ---
 
-# 📄 License
+# License
 
 MIT
