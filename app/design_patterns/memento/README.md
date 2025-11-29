@@ -6,7 +6,7 @@ This implementation adapts the traditional OOP-based Memento to a **functional, 
 
 ---
 
-# 🎯 Purpose
+# Purpose
 
 The Memento pattern solves one problem:
 
@@ -21,7 +21,7 @@ In React applications, state changes are common. Users type in forms, draw on ca
 
 ---
 
-# 🧠 How It Maps to React
+# How It Maps to React
 
 React components already manage state, but React **does not provide built-in undo/redo**.
 
@@ -39,7 +39,7 @@ In this repository:
 
 ---
 
-# 📦 Included Examples
+# Included Examples
 
 This pattern includes **two real-world examples**.
 
@@ -67,7 +67,7 @@ This allows:
 
 ---
 
-# 🧩 Pattern Structure
+# Pattern Structure
 
 ```
 Originator → Provides state & requests save
@@ -83,7 +83,7 @@ In functional React:
 
 ---
 
-# 🛠 How Undo/Redo Works
+# How Undo/Redo Works
 
 Each save operation pushes a **new snapshot** into a history list.
 
@@ -104,7 +104,7 @@ Clear separation between:
 
 ---
 
-# 🧪 Simplicity and Safety
+# Simplicity and Safety
 
 The design here intentionally avoids:
 
@@ -122,7 +122,7 @@ This makes the Memento pattern easier to integrate in modern frontend applicatio
 
 ---
 
-# 📌 When Should You Use It?
+# When Should You Use It?
 
 Use the Memento pattern when you need:
 
@@ -146,7 +146,7 @@ Use the Memento pattern when you need:
 
 ---
 
-# 🚫 When **Not** To Use It
+# When **Not** To Use It
 
 Avoid it when:
 
@@ -162,7 +162,7 @@ For those cases, consider:
 
 ---
 
-# 📄 Summary
+# Summary
 
 The Memento pattern provides a clean separation between:
 
@@ -277,7 +277,7 @@ Example:
 import ExampleOne from "./design_patterns/memento/example_one";
 
 export default function App() {
-  return <ExampleOne />;
+ return <ExampleOne />;
 }
 ```
 
